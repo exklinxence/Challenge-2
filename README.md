@@ -84,6 +84,14 @@ please ensure you are in this directory **terraform-environments/01-vpc/**
 navigate to terraform-environments/02-eks/
 ensure you have changed your organization and workspace values
 
+change the value of 
+`userarn  = "arn:aws:iam::582024900488:user/spad"`
+
+`username = "spad"`
+
+to the value of your the user you want to have access to kubernetes cluster use this link to get you own understand how to get your own values
+[AWS ARN]https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html
+
 enter 
 
 `terraform init`
